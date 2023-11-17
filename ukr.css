@@ -1,0 +1,882 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik&display=swap');
+
+
+
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+
+}
+header.logotipe{
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.logo{
+    position: relative;
+    top: 3vh;
+    left: 8vw;
+
+
+}
+.menu{
+    width: 100vw;
+    height: 5vh;
+    background-color: white;
+
+
+}
+nav{
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+a {
+    position: relative;
+    text-decoration: none;
+    color: #99A2AA;
+
+
+    font-size: 0.9vw;
+    font-style: normal;
+    left: 8vw;
+    text-align: unset;
+    top: 2vh;
+    margin-left: 25px;
+}
+main{
+    width: 100vw;
+    height: 60vh;
+    background: #FEC524;
+    font-size: 2vw;
+
+    color: white;
+
+
+}
+.mainposition{
+    position: relative;
+    left: 9vw;
+    top: 2vh;
+    font-family: 'Rubik', sans-serif;
+
+
+
+
+}
+.mainposition2{
+    position: relative;
+    left: 9vw;
+    font-family: 'Rubik', sans-serif;
+    bottom: 2vh;
+
+}
+.prise{
+    position: relative;
+    color: black;
+    font-size: 1vw;
+    left: 9vw;
+}
+input{
+    position: relative;
+    border-radius: 10px ;
+
+    padding: 0px 230px 0px 30px;
+    display: inline-flex;
+    height: 8vh;
+    width: 16vw;
+    align-items: center;
+    flex-shrink: 0;
+    left: 9vw;
+
+    background: #FFF;
+    border-color: white ;
+    border: none;
+}
+
+button{
+    position: relative;
+
+    width: 16vw;
+    height: 8vh;
+    bottom: 3vh;
+    background: #FFF;
+    border-radius: 10px;
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.7vw;
+    color: #99A2AA;
+    border-color: white;
+
+
+}
+.button2{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5vw;
+    border: none;
+
+
+
+
+}
+
+
+.pos2, .pos1, .pos3, .pos4{
+    position: absolute;
+    left: 1vw;
+}
+.knopka1, .knopka2, .knopka3, .knopka4{
+    position: relative;
+    padding-top: 0.7vh;
+    padding-left: 1vw;
+}
+.knopka3, .knopka4{
+    left: 0.7vw;
+    top:0.7vh;
+}
+.main2w{
+    position: relative;
+    width: 100vw;
+    height: 30vh;
+    border-color: aqua;
+}
+
+.wq{
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    color: #0E2F4B;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    top: 90vh;
+    left: 9vw;
+    font-size: 3vw
+;
+}
+
+
+
+.slog1{
+    position: absolute;
+    top: 90vh;
+    left: 35vw;
+
+    font-family: 'Rubik', sans-serif;
+    color: #0E2F4B;
+    font-size: 1.5vw;
+}
+.doc{
+    position: relative;
+    top: 5vh;
+    right: 0vw;
+}
+
+h1.slog1::after{
+    position: relative;
+    content:"Докладніше>";
+    font-size: 0.8vw;
+    pointer-events: auto;
+    cursor: pointer;
+
+}
+h1.slog1::after:hover {
+    text-decoration: underline;
+}
+
+.we{
+    position: absolute;
+    top: 90vh;
+    left: 70vw;
+
+    font-family: 'Rubik', sans-serif;
+    color: #0E2F4B;
+    font-size: 1.5vw;
+}
+h1.we::after{
+    position: relative;
+    content:"Докладніше>";
+    font-size: 0.8vw;
+    pointer-events: auto;
+    cursor: pointer;
+
+}
+h1.we::after:hover {
+    text-decoration: underline;
+}
+.wr {
+    position: absolute;
+    top: 120vh;
+    left: 35vw;
+
+    font-family: 'Rubik', sans-serif;
+    color: #0E2F4B;
+    font-size: 1.5vw;
+}
+h1.wr::after{
+    position: relative;
+    content:"Докладніше>";
+    font-size: 0.8vw;
+    pointer-events: auto;
+    cursor: pointer;
+
+}
+h1.wr::after:hover {
+    text-decoration: underline;
+}
+.wt {
+    position: absolute;
+    top: 120vh;
+    left: 70vw;
+
+    font-family: 'Rubik', sans-serif;
+    color: #0E2F4B;
+    font-size: 1.5vw;
+}
+h1.wt::after{
+    position: relative;
+    content:"Докладніше>";
+    font-size: 0.8vw;
+    pointer-events: auto;
+    cursor: pointer;
+
+}
+h1.wr::after:hover {
+    text-decoration: underline;
+}
+.wy {
+    position: absolute;
+    top: 150vh;
+    left: 35vw;
+
+    font-family: 'Rubik', sans-serif;
+    color: #0E2F4B;
+    font-size: 1.5vw;
+}
+h1.wy::after{
+    position: relative;
+    content:"Докладніше>";
+    font-size: 0.8vw;
+    pointer-events: auto;
+    cursor: pointer;
+
+}
+h1.wr::after:hover {
+    text-decoration: underline;
+}
+.wu {
+    position: absolute;
+    top: 150vh;
+    left: 70vw;
+
+    font-family: 'Rubik', sans-serif;
+    color: #0E2F4B;
+    font-size: 1.5vw;
+}
+h1.wu::after{
+    position: relative;
+    content:"Докладніше>";
+    font-size: 0.8vw;
+    pointer-events: auto;
+    cursor: pointer;
+
+}
+h1.wr::after:hover {
+    text-decoration: underline;
+}
+.qwe {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: #0E2F4B;
+    top: 110vh;
+    left: 9vw ;
+    line-height: 2vw;
+}
+
+section {
+    position: absolute;
+    width: 100vw;
+    height: 60vh;
+    top: 170vh;
+    background: #042C4B;
+}
+.poss3{
+    position: relative;
+    color: white;
+    font-family: Rubik, sans-serif;
+    font-size: 2vw;
+    top: 10vh;
+    left: 8vw;
+}
+.poss4{
+    position: absolute;
+    color: #99A2AA;
+    font-family: Open Sans, sans-serif;
+    left: 8vw;
+    top: 25vh;
+    line-height: 3vh;
+}
+.poss5{
+    position: absolute;
+    border-radius: 10px;
+    background: #FDC13D;
+    left: 8.2vw;
+    top: 36vh;
+    border-color:#FDC13D ;
+    padding-top: 3vh;
+    font-size: 1vw;
+    font-family: Rubik,sans-serif;
+    color: #042C4B;;
+}
+.classwhiteblock2{
+    position: absolute;
+    width: 100vw;
+    height: 90vh;
+    background: white;
+    font-size: 2vw;
+    top: 60vh;
+
+}
+.ramka{
+    position: absolute;
+    width: 87.5vw;
+    height: 25vh;
+    border-radius: 10px;
+    background: #FDC13D;
+    top: 8vh;
+    left: 8vw;
+}
+.ramkatext{
+    position: relative;
+    color: #0E2F4B;
+    font-family: Rubik,sans-serif;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.5vh;
+    top: 2vh;
+    left: 6vw;
+}
+.txx{
+    color: #0E2F4B;
+    font-family: Open Sans,sans-serif;
+    font-size: 0.8vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1vh; /* 187.5% */
+}
+.txxx{
+    position: relative;
+    color: #0E2F4B;
+    font-family: Rubik,sans-serif;
+    font-size: 0.8vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1vh; /* 150% */
+    left: 6vw;
+    bottom: 4vh;
+}
+#ss{
+    position: absolute;
+    color: #0E2F4B;
+    top: 44vh;
+    left: 8vw;
+    font-size: 2vw;
+}
+.qw {
+    position: absolute;
+    top: 60vh;
+    left: 10vw;
+
+    font-family: 'Rubik', sans-serif;
+    color: #0E2F4B;
+    font-size: 1vw;
+    line-height: 3vh;
+}
+.qww {
+    position: absolute;
+    top: 60vh;
+    left: 30vw;
+
+
+    font-family: 'Rubik', sans-serif;
+    color: #0E2F4B;
+    font-size: 1vw;
+    line-height: 3vh;
+
+}
+.qwww {
+    position: absolute;
+    top: 60vh;
+    left: 50vw;
+
+    font-family: 'Rubik', sans-serif;
+    color: #0E2F4B;
+    font-size: 1vw;
+    line-height: 3vh;
+}
+h1.qw::after{
+    position: relative;
+    content:"Докладніше>";
+    font-size: 0.6vw;
+    pointer-events: auto;
+    cursor: pointer;
+
+}
+h1.qw::after:hover {
+    text-decoration: underline;
+}
+
+
+
+h1.qww::after{
+    position: relative;
+    content:"Докладніше>";
+    font-size: 0.6vw;
+    pointer-events: auto;
+    cursor: pointer;
+
+}
+h1.qww::after:hover {
+    text-decoration: underline;
+}
+h1.qwww::after{
+    position: relative;
+    content:"Докладніше>";
+    font-size: 0.6vw;
+    pointer-events: auto;
+    cursor: pointer;
+
+}
+h1.qwww::after:hover {
+    text-decoration: underline;
+}
+
+
+section.poisk {
+    position: absolute;
+    width: 100vw;
+    height: 80vh;
+    top: 100vh;
+    background: #042C4B;
+
+}
+.poss4-1{
+    font-size: 1vw;
+    word-spacing: 0.5vw;
+    position: relative;
+    color: #99A2AA;
+    font-family: Open Sans, sans-serif;
+    left: 8vw;
+    top: 13vh;
+    line-height: 2vh;
+}
+.buttonlastt{
+    position: relative;
+    top: 20vh;
+    left: 8vw;
+
+}
+#pp{
+    position: relative;
+    top: 12vh;
+    height: 8vh;
+    left: 38vw;
+    width: 16vw;
+    background: #FDC13D;
+    border-color: #FDC13D;
+    padding-top: 3vh;
+    color: #0E2F4B;
+    font-size: 0.8vw;
+}
+.classwiteblock3{
+    height: 150vh;
+    width: 100vw;
+    background: #F8F8F8;
+
+}
+.newtxt{
+    position: relative;
+    top: 2vh;
+    left: 8vw ;
+    font-size: 3vw;
+    color: #0E2F4B;
+    font-family: Rubik,sans-serif;
+}
+.blocked{
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.block1 {
+    position: absolute;
+    width: 40vw;
+    height: 25vh;
+    background-color: white;
+    border-radius: 10px;
+    top: 50vh;
+    right: 4vw;
+}
+.block2{
+    position: absolute;
+    width: 40vw;
+    height: 25vh;
+    background-color: white;
+    border-radius: 10px;
+    right:4vw;
+    top: 20vh;
+
+
+}
+
+
+.block3{
+    position: absolute;
+    width: 40vw;
+    height: 25vh;
+    background-color: white;
+    border-radius: 10px;
+    top: 20vh;
+    left: 10vw;
+}
+
+.block4{
+    position: absolute;
+    width: 40vw;
+    height: 25vh;
+    background-color:white;
+    border-radius: 10px;
+    top: 50vh;
+    left:10vw;
+}
+.tablet{
+    position: absolute;
+    top: 3vh;
+    left: 1vw;
+    text-align: left;
+}
+
+.tabletdata{
+    position: relative;
+    color: #99A2AA;
+    font-family: Open Sans,sans-serif;
+    font-size: 0.7vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1vh; /* 171.429% */
+    left: 8vw;
+    top: 2vh;
+
+}
+.tabletzagolovok{
+    position: relative;
+    color: #0E2F4B;
+    font-family: Rubik,sans-serif;
+    font-size: 0.8vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2vh; /* 133.333% */
+    top: 2vh;
+    left: 8.2vw;
+}
+.tableth1{
+    position: relative;
+    top: 5vh;
+
+    left: 8vw;
+    color: #0E2F4B;
+    font-family: Rubik,sans-serif;
+    font-size: 0.8vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2vh; /* 133.333% */
+}
+.podzagolovok{
+    position: absolute;
+    color: #0E2F4B;
+    font-family: Open Sans,sans-serif;
+    font-size: 0.8vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3vh;
+    top: 14vh;
+    left: 3vw;
+}
+.vv{
+    position:relative;
+    color: #0E2F4B;
+    font-family: Rubik,sans-serif;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    top: 80vh;
+    left: 8vw;
+
+}
+
+.b1{
+    position: absolute;
+    top:110vh;
+    left: 8vw;
+
+    color: #99A2AA;
+    font-family: Rubik,sans-serif;
+    font-size: 0.8vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.8vw; /* 160% */
+    padding-top: 3vh;
+    width: 25vw;
+    border-color: #F8F8F8;
+
+}
+.b2{
+    position: absolute;
+    top:120vh;
+    left: 8vw;
+    border-color: white;
+    color: #99A2AA;
+    font-family: Rubik,sans-serif;
+    font-size: 0.8vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.8vw; /* 160% */
+    padding-top: 3vh;
+    width: 25vw;
+
+}
+
+.b3{
+    position: absolute;
+    top:110vh;
+    left: 40vw;
+    border-color: white;
+    color: #99A2AA;
+    font-family: Rubik,sans-serif;
+    font-size: 0.8vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.8vw; /* 160% */
+    padding-top: 3vh;
+    width: 25vw;
+
+}
+
+.b4{
+    position: absolute;
+    top:120vh;
+    left: 40vw;
+    border-color: white;
+    color: #99A2AA;
+    font-family: Rubik,sans-serif;
+    font-size: 0.8vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.8vw; /* 160% */
+    padding-top: 3vh;
+    width: 25vw;
+
+}
+.b5{
+    position: absolute;
+    top:120vh;
+    left: 71vw;
+    border-color: white;
+    color: #99A2AA;
+    font-family: Rubik,sans-serif;
+    font-size: 0.8vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.8vw; /* 160% */
+    padding-top: 3vh;
+    width: 25vw;
+
+}
+.b6{
+    position: absolute;
+    top:110vh;
+    left: 71vw;
+    border-color: white;
+    color: #99A2AA;
+    font-family: Rubik,sans-serif;
+    font-size: 0.8vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.8vw; /* 160% */
+    padding-top: 3vh;
+    width: 25vw;
+
+
+}
+.goldblock{
+    height: 55vh;
+    width: 100vw;
+    background: #FEC524;
+    position: absolute;
+    top: 320vh;
+}
+.goldblocktxt{
+    position: absolute;
+    color: #FFF;
+    font-family: Rubik,sans-serif;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+    top: 6vh;
+    left: 8vw;
+}
+.txgold{
+    position: relative;
+    color: #0E2F4B;
+    font-family: Open Sans,sans-serif;
+    font-size: 0.8vw;
+    left: 8vw;
+    top: 18vh;
+}
+.moble{
+    position: relative;
+    color: #0E2F4B;
+    font-family: Rubik,sans-serif;
+    font-size:0.9vw;
+    font-style: normal;
+    font-weight: 700;
+    left: 8vw;
+    top: 20vh;
+}
+.imagine1{
+    position: absolute;
+    top: 30vh;
+    left: 6.5vw;
+}
+.imagine2{
+    position: absolute;
+    top: 30vh;
+    left: 16.5vw;
+}
+.chatbot{
+    position: relative;
+    color: #0E2F4B;
+    font-family: Rubik,sans-serif;
+    font-size:0.9vw;
+    font-style: normal;
+    font-weight: 700;
+    left: 8vw;
+    top: 30vh;
+}
+.telegram{
+    position: relative;
+    top: 30vh;
+    left: 6.5vw;
+
+}
+
+footer{
+    position: absolute;
+    background: #1D2023;
+    width: 100vw;
+    height: 100vh;
+    top: 375vh;
+
+}
+.perviy{
+    top: 8vh;
+    left: 14vh   ;
+    position: relative;
+    color: #FFF;
+    font-family: Rubik,sans-serif;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 125% */
+}
+.perviy1{
+    position: relative;
+    right:2.5vw;
+    top: 10vh;
+    color: #99A2AA;
+    font-family: Rubik,sans-serif;
+    font-size: 0.8vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5vh; /* 150% */
+}
+.vtoroy{
+    position: relative;
+    bottom: 60vh;
+    left: 30vw   ;
+
+    color: #FFF;
+    font-family: Rubik,sans-serif;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.vtoroy2{
+    position: relative;
+    left: 20.5vw;
+    bottom: 58vh;
+    color: #99A2AA;
+    font-family: Rubik,sans-serif;
+    font-size: 0.8vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5vh; /* 150% */
+}
+.tretiy{
+    bottom: 102.1vh;
+    left: 50vw;
+    position: relative;
+    color: #FFF;
+    font-family: Rubik,sans-serif;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 125% */
+}
+.tretiy3{
+    position: relative;
+    left: 40.5vw;
+    bottom: 100.5vh;
+    color: #99A2AA;
+    font-family: Rubik,sans-serif;
+    font-size: 0.8vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5vh; /* 150% */
+}
+.chetvertiy{
+    position:relative;
+    bottom: 140.5vh;
+    left: 75vw;
+    color: #FFF;
+    font-family: Rubik,sans-serif;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 125% */
+}
+.chetiri4{
+    bottom: 140vh;
+    left: 65.5vw;
+    position: relative;
+    color: #FFF;
+    font-family: Rubik,sans-serif;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 125% */
+}
